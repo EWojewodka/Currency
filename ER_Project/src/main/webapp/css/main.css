@@ -1,0 +1,64 @@
+@CHARSET "UTF-8";
+
+html body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Corben', sans-serif;
+	background-color: orange;
+	color: white;
+}
+
+.header {
+	width: 80%;
+	height: 75px;
+	background-color: #1a81e7;
+	color: white;
+	font-size: 50px;
+}
+
+.container {
+	padding-top: 30px;
+	width: 80%;
+	min-height: 100vh;
+	height: auto;
+	background-color: black;
+	position:absolute;
+	font-size: 16px;
+}
+.container .entry {
+	border: solid 2px #f9fbda;
+	border-radius: 3px;
+	width:auto;
+	height: auto;
+	background-color:  #e9fbda;
+	color: black;
+	margin-right: 20px;
+}
+#right-nav-menu {
+	display:block;
+	width: 20%;
+	position:fixed;
+	right: 0;
+	padding: auto;
+	marign: auto;
+}
+#right-nav-menu ul {
+	list-style: none;
+	color: black;
+}
+#right-nav-menu ul li {
+	margin: 5px;
+	border: solid 2px black;
+	border-radius: 5px;
+	background-color: #1a81e7;
+	text-align: center;
+}
+#right-nav-menu ul li:hover {
+	color: white;
+	border: white 2px solid;
+	background-color: black;
+}
+a:VISITED {
+	text-decoration: none;
+	color:inherit;
+}
